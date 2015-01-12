@@ -1,0 +1,7 @@
+Sockets - Learning and implementing sockets in C
+
+There are two main files: socserv.c and socclient.c
+Socserv deals with creating the concurrent server. It is always active. 
+Socclient deals with the client. You pass in the IP address of the server and it will connect and send requests for TEMP, HUMIDITY, and LIGHT. The server will return the respective values based on the time difference of each request. The results are then displayed on the client end.
+
+Author: Robin Wang
